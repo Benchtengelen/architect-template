@@ -246,8 +246,9 @@ header nav .menu a:hover{
 }
 .contact form input {
     padding: 7px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 100%;
+    font-size: 20px;
 }
  .contact button{
     padding: 10px;
@@ -255,6 +256,7 @@ header nav .menu a:hover{
     border: none;
     background-color: black;
     color: white;
+    margin-top: 15px;
  }
  .contact button:hover{
     background-color: #CCCCCC;
@@ -262,6 +264,22 @@ header nav .menu a:hover{
  }
 
 
+ /* map start */
+
+.image2{
+    width: 94%;
+    height: 500px;
+    background-image: url("img/map.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+   
+  }
+
+
+   /* map end */
 
 
 
