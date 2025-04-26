@@ -221,11 +221,45 @@ header nav .menu a:hover{
     background-color: #CCCCCC;
 }
 
-
-
-
 /* About end */
 
+.contact {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.contact p {
+    font-size: 24px;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+.contact .p2{
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: none;
+}
+
+.contact form{
+    padding: 10px;
+}
+.contact form input {
+    padding: 7px;
+    margin-top: 10px;
+    width: 100%;
+}
+ .contact button{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+ }
+ .contact button:hover{
+    background-color: #CCCCCC;
+    color: black;
+ }
 
 
 
