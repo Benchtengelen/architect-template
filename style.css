@@ -166,8 +166,7 @@ header nav .menu a:hover{
 
 .about .head {
     font-size: 24px;
-    /* font-weight: bold; */
-    border-bottom: 1px solid lightgrey;
+ border-bottom: 1px solid lightgrey;
     padding-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -180,10 +179,11 @@ header nav .menu a:hover{
     flex-wrap: wrap;
     gap: 20px;
     
-    /* margin-top: 30px; */
+ 
   }
 .about .card {
-    width: 340px;
+    flex: 1 1 300px;
+     max-width: 340px;
     height: auto;
     margin-bottom: 20px;
     padding-top: 40px;
@@ -194,12 +194,13 @@ header nav .menu a:hover{
 }
 
 .about .card img{
-   width: 350px;
-   height: 234px;
+ 
+   width: 100%;
+   height: auto;
 }
 .about .card .p1, .p2 .p3 {
     text-align: left;
-    /* padding: 20px; */
+    
     font-size: 25px;
 }
 .about .card .p1{
@@ -268,7 +269,7 @@ header nav .menu a:hover{
 
 .image2{
     width: 94%;
-    height: 500px;
+    height: 700px;
     background-image: url("img/map.jpg");
     background-position: center;
     background-size: cover;
@@ -280,6 +281,23 @@ header nav .menu a:hover{
 
 
    /* map end */
+
+   /* footer start */
+
+   .footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 20px;
+  }
+  .footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
+  }
+
+   /* footer end */
 
 
 
@@ -296,7 +314,12 @@ header nav .menu a:hover{
     .hero-image .article .article-2{
         display: none;
     }
+    .about .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
    
+
 }
 
 @media screen  and (max-width:650px) {
